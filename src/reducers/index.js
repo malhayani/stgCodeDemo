@@ -25,7 +25,6 @@ function rootReducer(state = initialState, action) {
     } else if (action.type === SORT_STUDIOS) {
         let sortedStudios = [...state.filteredStudios]
         let asc = state.currentSortField === action.payload ? !state.ascending : true
-        
         sortedStudios = sortedStudios.sort((a, b) => {
             let aVal = a[action.payload]
             let bVal = b[action.payload]

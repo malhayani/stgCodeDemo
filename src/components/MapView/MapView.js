@@ -75,7 +75,6 @@ class MapView extends Component {
             if (markers.length > 0) {
                 let distances = []
                 let closest = -1
-    
                 markers.forEach((marker, i) => {
                     distances[i] = this.calculateClosest(userLocation, { lat: marker.position.lat(), long: marker.position.lng() })
                     if ( closest === -1 || distances[i] < distances[closest] ) {

@@ -1,0 +1,8 @@
+export const SET_DATA = 'SET_DATA'
+export const SORT_STUDIOS = 'SORT_STUDIOS'
+export const FILTER_STUDIOS = 'FILTER_STUDIOS'
+export const SET_STAGE_FILTER = 'SET_STAGE_FILTER'
+export const SET_STATE_FILTER = 'SET_STATE_FILTER'
+export const SET_SEARCH_INPUT = 'SET_SEARCH_INPUT'
+export const SET_VIEW = 'SET_VIEW'
+export const SET_CURRENT_STUDIO = 'SET_CURRENT_STUDIO'

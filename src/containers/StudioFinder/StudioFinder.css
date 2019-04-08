@@ -1,0 +1,26 @@
+div.container > div.row > div.col {
+    padding: 0px;
+}
+
+p.pageTitle {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+button.view-btn {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #000;
+    height: 32px;
+}
+
+button.view-btn:focus {
+    outline: none;
+}
+
+button.active-view {
+    background-color: #e6e6e6;
+}

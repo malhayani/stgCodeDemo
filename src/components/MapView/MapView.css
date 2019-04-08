@@ -1,0 +1,14 @@
+button.find-studio-btn {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    margin-top: -55px; 
+}
+
+button.find-studio-btn:focus {
+    outline: none;
+}

@@ -1,9 +1,9 @@
-.header {
+div.header {
   width: 100%;
   border: 1px solid #000;
 }
 
-.header > p {
+div.header > p {
   font-size: 24px;
   font-weight: 500;
   padding: 15px;
